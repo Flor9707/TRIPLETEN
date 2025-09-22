@@ -9,23 +9,19 @@ st.write('Analisis Exploratorio Inicial:')
 
 raw_data =pd.read_csv('analisis-anuncios-vehiculos/vehicles_us.csv')
 
+st.write('Revisar tipos de datos de las columnas:')
+st.dataframe(raw_data.dtypes.rename('datatype'))
+
 st.write('Revisar primeras filas:')
 st.dataframe(raw_data.head())
 
-st.write('Revisar primeras estructuras del dataframes')
-st.dataframe(raw_data.info())
+st.write('Revisar primeras filas:')
+st.dataframe(raw_data.tail())
 
 st.write('Revisar primeros valores ausentes:')
 st.dataframe(raw_data.stb.missing(style=True))
 
-boton_barras = st.button('Crear un grafico de barras sobre fecha de la publicacion', type='primary')
+st.write('Revisar filas duplicados:')
 
-if  boton_barras:
-    st.bar_chart(raw_data['date_posted'])
 
-boton_histograma =st.button('Crear grafico de histograma sobre la fecha de publicacion', type='primary')
-    
-if boton_histograma:
-    fig= px.histogram(raw_data, x='date_posted')
 
-    st.plotly_chart(fig)
