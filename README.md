@@ -11,7 +11,7 @@ Cada proyecto muestra mis habilidades en procesamiento de datos, visualización 
 | Project | Description | Key Tools | Notebook Link |
 |---------|------------|-----------|---------------|
 | 📈 Analisis Predictivo de Exito de Videojuegos | Identifique el juego con mayor potencial comercial dentro de una plataforma específica. | `Pandas`, `Python`, `Matplotlib` | [View Notebook](analisis-de-tienda-videojuegos) |
-| 🛒 Optimizacion de la extracion del oro con Machine Learning | Desarrolle un modelo predictivo capaz de estimar con precisión la recuperación de oro en dos etapas del proceso de producción | `Matplotlib`, `Seaborn`, `numpy` | [View Notebook](#) |
+| 🛒 Optimizacion de la extracion del oro con Machine Learning | Desarrolle un modelo predictivo capaz de estimar con precisión la recuperación de oro en dos etapas del proceso de producción | `Matplotlib`, `Seaborn`, `numpy` | [View Notebook](modelo-machine-learning-zyfra/Proyecto_12.ipynb) |
 | 🏋️ Prediccion de Cancelacion de clientes Interconnect |Predije la cancelación de clientes en Interconnect para implementar acciones de retención efectivas. | `Scikit-learn`, `Matplotlib`, 'Numpy', `XGB` | [View Notebook](#) |
 
 ---
